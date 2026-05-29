@@ -355,8 +355,27 @@ body.dark footer a {
   margin: auto;
 }
 
+.tagline {
+
+  font-size: 28px;
+
+  font-weight: bold;
+
+  color: #7b2ff7;
+
+  margin: 20px auto;
+}
+
+body.dark .tagline {
+  color: #b983ff;
+}
+
 body.dark .hero p {
   color: #bbb;
+}
+
+body.dark .tagline {
+  color: #b983ff;
 }
 
 @media (max-width: 768px) {
