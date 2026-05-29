@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://picoinproject.org/</loc>
+  </url>
+
+  <url>
+    <loc>https://picoinproject.org/tech/</loc>
+  </url>
+
+  <url>
+    <loc>https://picoinproject.org/tech/structure/</loc>
+  </url>
+
+  <url>
+    <loc>https://picoinproject.org/tech/infrastructure/</loc>
+  </url>
+
+  <url>
+    <loc>https://picoinproject.org/tech/tokenomics/</loc>
+  </url>
+
+  <url>
+    <loc>https://picoinproject.org/tech/status/</loc>
+  </url>
+
+  <url>
+    <loc>https://picoinproject.org/tech/documentation/</loc>
+  </url>
+
+  <url>
+    <loc>https://picoinproject.org/docs/core-idea.html</loc>
+  </url>
+
+  <url>
+    <loc>https://picoinproject.org/docs/vision.html</loc>
+  </url>
+
+  <url>
+    <loc>https://picoinproject.org/docs/concept.html</loc>
+  </url>
+
+  <url>
+    <loc>https://picoinproject.org/docs/manifesto.html</loc>
+  </url>
+  
+  <url>
+  <loc>https://picoinproject.org/about/</loc>
+</url>
+
+  <url>
+    <loc>https://picoinproject.org/docs/stellar-wallets.html</loc>
+  </url>
+
+</urlset>
