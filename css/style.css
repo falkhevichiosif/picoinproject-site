@@ -54,6 +54,21 @@ body {
     0 10px 30px rgba(0,0,0,0.08);
 }
 
+.address {
+
+  font-family: monospace;
+
+  font-size: 14px;
+
+  line-height: 1.4;
+
+  overflow-wrap: anywhere;
+
+  word-break: break-all;
+
+  margin-top: 15px;
+}
+
 .subtitle {
 
   font-size: 22px;
