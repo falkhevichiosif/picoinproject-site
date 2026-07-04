@@ -4,9 +4,8 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <meta name="description"
-      content="Official Stellar wallet infrastructure of the PICoin Project including issuer, ICO, treasury, reserve, team, and ecosystem accounts.">
+      content="Official Stellar wallet infrastructure of the PICoin Project including issuer, ICO, treasury, reserve, team, volunteers, organization, and reserve accounts.">
 
 <meta property="og:title"
       content="Stellar Wallet Structure • PICoin Project">
@@ -24,15 +23,12 @@
       content="https://picoinproject.org/assets/picoin_toml_512.png">
 
 <meta name="keywords"
-      content="PICoin, Stellar, wallets, issuer, treasury, reserve, blockchain, transparency">
+      content="PICoin, Stellar wallets, treasury, reserve, transparency, blockchain">
 
 <title>Stellar Wallet Structure • PICoin Project</title>
 
-<link rel="canonical"
-      href="https://picoinproject.org/docs/stellar-wallets.html">
-
-<link rel="stylesheet"
-      href="/css/style.css">
+<link rel="canonical" href="https://picoinproject.org/docs/stellar-wallets.html">
+<link rel="stylesheet" href="/css/style.css">
 
 </head>
 
@@ -40,241 +36,233 @@
 
 <header>
 
-<h1>PICoin Project</h1>
+  <h1>PICoin Project</h1>
 
-<div class="subtitle">
-Stellar Wallet Structure
-</div>
+  <div class="subtitle">
+    Stellar Wallet Structure
+  </div>
 
-<button id="theme-toggle">🌙</button>
+  <button id="theme-toggle">🌙</button>
 
 </header>
 
 <div class="container">
 
-<div class="card">
+  <div class="card">
 
-<div class="intro">
+    <div class="intro">
 
-<p>
-The PICoin Project uses a multi-wallet Stellar infrastructure
-for token issuance, treasury management,
-ecosystem development, and long-term reserve storage.
-</p>
+      <p>
+        The PICoin Project uses a multi-wallet Stellar infrastructure
+        for token issuance, treasury management,
+        ecosystem development, and reserve storage.
+      </p>
 
-<p>
-This page lists the official Stellar accounts of the PICoin Project.
-Their public keys are also published in the project's
-<a href="/.well-known/stellar.toml">stellar.toml</a> file.
-</p>
+      <p>
+        This page lists the official Stellar accounts of the PICoin Project.
+        Their public keys are also published in the project's
+        <a href="/.well-known/stellar.toml">stellar.toml</a> file.
+      </p>
 
-<div class="total">
+      <div class="total">
+        Maximum Supply
+        <br>
+        750,000,000,000 PIC
+      </div>
 
-Maximum Supply
+    </div>
 
-<br>
+    <h2>Wallet Infrastructure</h2>
 
-750,000,000,000 PIC
+    <div class="grid">
 
-</div>
+      <!-- ISSUER -->
 
-</div>
+      <div class="wallet">
 
-<h2>Wallet Infrastructure</h2>
+        <h3>PICoin Issuer</h3>
 
-<div class="grid">
+        <div class="amount">
+          0 PIC
+        </div>
 
-<!-- ISSUER -->
+        <p>
+          Official asset issuing account.
+          Creates the PIC asset and
+          does not store project funds.
+        </p>
 
-<div class="wallet">
+        <div class="address">
+          GCKUEZHJJCSODYFTF32BFMSD7C4IYY73FECHCL5B72SFHPMSDVG6S7D2
+        </div>
 
-<h3>PICoin Issuer</h3>
+      </div>
 
-<div class="amount">
-0 PIC
-</div>
+      <!-- ICO -->
 
-<p>
-Official asset issuing account.
-This account creates the PIC asset
-and does not store project funds.
-</p>
+      <div class="wallet">
 
-<div class="address">
-GCKUEZHJJCSODYFTF32BFMSD7C4IYY73FECHCL5B72SFHPMSDVG6S7D2
-</div>
+        <h3>PICoin ICO</h3>
 
-</div>
+        <div class="amount">
+          300B PIC
+        </div>
 
-<!-- ICO -->
+        <p>
+          Initial allocation reserved
+          for the future formation of the
+          Project Fund's charter capital.
+        </p>
 
-<div class="wallet">
+        <div class="address">
+          GD5WRB66PMR2DNEA3V33FCVT4REHDQ3WVUYSZAEOYCLY64VPUIINKZGX
+        </div>
 
-<h3>PICoin ICO</h3>
+      </div>
 
-<div class="amount">
-300B PIC
-</div>
+      <!-- TREASURY -->
 
-<p>
-Initial allocation reserved
-for the future establishment
-of the Project Fund's charter capital.
-</p>
+      <div class="wallet">
 
-<div class="address">
-GD5WRB66PMR2DNEA3V33FCVT4REHDQ3WVUYSZAEOYCLY64VPUIINKZGX
-</div>
+        <h3>PICoin Treasury</h3>
 
-</div>
+        <div class="amount">
+          300B PIC
+        </div>
 
-<!-- TREASURY -->
+        <p>
+          Treasury management,
+          ecosystem development,
+          and long-term distribution.
+        </p>
 
-<div class="wallet">
+        <div class="address">
+          GBIMMJ4IQITCLO63JO4XYZTPF5ETV4KQB6LIFVH5WE4PVJOUXEPRU32E
+        </div>
 
-<h3>PICoin Treasury</h3>
+      </div>
 
-<div class="amount">
-300B PIC
-</div>
+      <!-- MYTEAM -->
 
-<p>
-Treasury management,
-ecosystem development,
-and long-term distribution.
-</p>
+      <div class="wallet">
 
-<div class="address">
-GBIMMJ4IQITCLO63JO4XYZTPF5ETV4KQB6LIFVH5WE4PVJOUXEPRU32E
-</div>
+        <h3>PICoin MyTeam</h3>
 
-</div>
+        <div class="amount">
+          75B PIC
+        </div>
 
-<!-- TEAM -->
+        <p>
+          Infrastructure,
+          GitHub development,
+          documentation,
+          and ecosystem support.
+        </p>
 
-<div class="wallet">
+        <div class="address">
+          GBUNJWXGVVCHE2ZDOXIKPNXR45S64WO2TO3WOWYSYMBLW7TJCFJCMLHS
+        </div>
 
-<h3>PICoin Team</h3>
+      </div>
 
-<div class="amount">
-75B PIC
-</div>
+      <!-- VOLUNTEERS -->
 
-<p>
-Infrastructure,
-software development,
-documentation,
-and ecosystem support.
-</p>
+      <div class="wallet">
 
-<div class="address">
-GBUNJWXGVVCHE2ZDOXIKPNXR45S64WO2TO3WOWYSYMBLW7TJCFJCMLHS
-</div>
+        <h3>PICoin Volunteers</h3>
 
-</div>
+        <div class="amount">
+          10B PIC
+        </div>
 
-<!-- VOLUNTEERS -->
+        <p>
+          Volunteer support
+          and ecosystem contributions.
+        </p>
 
-<div class="wallet">
+        <div class="address">
+          GDHSYB7RLQE6SEBDECUXNZHIYZSPTHTRIDIANTV32BHMABEMZIJD76TS
+        </div>
 
-<h3>PICoin Volunteers</h3>
+      </div>
 
-<div class="amount">
-10B PIC
-</div>
+      <!-- ORG -->
 
-<p>
-Volunteer support
-and ecosystem contributions.
-</p>
+      <div class="wallet">
 
-<div class="address">
-GDHSYB7RLQE6SEBDECUXNZHIYZSPTHTRIDIANTV32BHMABEMZIJD76TS
-</div>
+        <h3>PICoin Org</h3>
 
-</div>
+        <div class="amount">
+          10B PIC
+        </div>
 
-<!-- ORGANIZATION -->
+        <p>
+          Organizational
+          and infrastructure needs.
+        </p>
 
-<div class="wallet">
+        <div class="address">
+          GAXX43G7FTIBLKTQ26BPA6OMN4DGQVG4XGHZBF3EGL2WK2JOOYQKM54J
+        </div>
 
-<h3>PICoin Organization</h3>
+      </div>
 
-<div class="amount">
-10B PIC
-</div>
+      <!-- RESERVE -->
 
-<p>
-Organizational,
-administrative,
-and infrastructure needs.
-</p>
+      <div class="wallet">
 
-<div class="address">
-GAXX43G7FTIBLKTQ26BPA6OMN4DGQVG4XGHZBF3EGL2WK2JOOYQKM54J
-</div>
+        <h3>PICoin Reserve</h3>
 
-</div>
+        <div class="amount">
+          55B PIC
+        </div>
 
-<!-- RESERVE -->
+        <p>
+          Strategic reserve
+          and long-term
+          ecosystem sustainability.
+        </p>
 
-<div class="wallet">
+        <div class="address">
+          GDPNCB4M5UXVWG33PZ4YYJGLF66RKB4OQNKQWWU7QBIP6W5VKEDDFRQ2
+        </div>
 
-<h3>PICoin Reserve</h3>
+      </div>
 
-<div class="amount">
-55B PIC
-</div>
+    </div>
 
-<p>
-Strategic reserve
-for long-term ecosystem
-stability and sustainability.
-</p>
+    <h2>Transparency</h2>
 
-<div class="address">
-GDPNCB4M5UXVWG33PZ4YYJGLF66RKB4OQNKQWWU7QBIP6W5VKEDDFRQ2
-</div>
+    <p>
+      All wallets listed on this page are official public accounts
+      of the PICoin Project. Their public addresses are published
+      for transparency and independent verification.
+    </p>
 
-</div>
+    <p>
+      Additional official wallets may be introduced as the PICoin ecosystem evolves.
+      Any future public accounts will also be published on this page and in the
+      project's <a href="/.well-known/stellar.toml">stellar.toml</a> file.
+    </p>
 
-</div>
+    <a class="button"
+       href="/tech/tokenomics/">
+       Back to Token Economics
+    </a>
 
-<h2>Transparency</h2>
-
-<p>
-All wallets listed on this page are official public accounts
-of the PICoin Project.
-Their public addresses are published for transparency
-and independent verification.
-</p>
-
-<p>
-Additional official wallets may be introduced
-as the PICoin ecosystem evolves.
-Any future public accounts will also be published
-on this page and in the project's
-<a href="/.well-known/stellar.toml">stellar.toml</a> file.
-</p>
-
-<a class="button"
-   href="/tech/tokenomics/">
-Back to Token Economics
-</a>
-
-</div>
+  </div>
 
 </div>
 
 <footer>
 
-PICoin Project • Stellar Infrastructure
+  PICoin Project • Stellar Infrastructure
 
-<br><br>
+  <br><br>
 
-<a href="/tech/">
-Back to Technical Portal
-</a>
+  <a href="/tech/">
+    Back to Technical Portal
+  </a>
 
 </footer>
 
