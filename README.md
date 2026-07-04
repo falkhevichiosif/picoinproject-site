@@ -1,10 +1,10 @@
-# PICoinproject Site
+# PICoin Project Website
 
-Official website repository for PICoinproject.
+Official website repository for the PICoin Project.
 
 ## Overview
 
-PICoinproject Site is the public web portal of the PICoinproject ecosystem.
+The PICoin Project Website is the public web portal of the PICoin Project.
 
 The website provides public information about the project, access to technical documentation, infrastructure transparency, tokenomics, and project architecture.
 
@@ -12,7 +12,7 @@ The website provides public information about the project, access to technical d
 
 ### Layer 1 — Public Portal
 
-* About PICoinproject
+* About
 * Core Idea
 * Vision
 * Concept
@@ -22,11 +22,11 @@ The website provides public information about the project, access to technical d
 
 * Project Structure
 * Infrastructure
-* Token Economics
+* Tokenomics
 * Current Status
 * Documentation
 
-### Layer 3 — Documentation Layer
+### Layer 3 — Documentation
 
 * Core Idea
 * Vision
@@ -36,13 +36,13 @@ The website provides public information about the project, access to technical d
 
 ## Features
 
-* Public website architecture
-* Technical infrastructure portal
-* Tokenomics section
+* Public website
+* Technical Portal
+* Tokenomics
 * Stellar wallet transparency
-* Documentation system
-* About PICoinproject page
-* Dark / Light theme
+* Documentation
+* About page
+* Dark and Light theme
 * Mobile-friendly design
 * Responsive layout
 * Open Graph integration
@@ -75,11 +75,11 @@ The website provides public information about the project, access to technical d
 
 ## Technical Portal
 
-The `/tech` section contains:
+The `/tech` section includes:
 
 * Project Structure
 * Infrastructure
-* Token Economics
+* Tokenomics
 * Current Status
 * Documentation
 
@@ -98,7 +98,7 @@ https://picoinproject.org
 
 https://github.com/falkhevichiosif/picoinproject
 
-## Status
+## Project Status
 
 Current focus:
 
@@ -110,4 +110,4 @@ Current focus:
 
 ---
 
-**PICoinproject © 2026**
+**PICoin Project ©**
