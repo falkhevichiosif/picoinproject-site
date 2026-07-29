@@ -1,1 +1,31 @@
+# PICoin Stellar TOML Configuration (SEP-1 Valid)
 
+VERSION="2.0.0"
+
+# Organization Information (Global fields)
+ORG_NAME="PICoin Project"
+ORG_URL="https://picoinproject.org"
+ORG_LOGO="https://picoinproject.org/assets/picoin_toml_512.png"
+ORG_DESCRIPTION="Model of public access to capital."
+ORG_EMAIL="info@picoinproject.org"
+
+# Official Project Wallets
+ACCOUNTS=[
+  "GD5WRB66PMR2DNEA3V33FCVT4REHDQ3WVUYSZAEOYCLY64VPUIINKZGX", # ICO wallet
+  "GBIMMJ4IQITCLO63JO4XYZTPF5ETV4KQB6LIFVH5WE4PVJOUXEPRU32E", # Treasury wallet
+  "GBUNJWXGVVCHE2ZDOXIKPNXR45S64WO2TO3WOWYSYMBLW7TJCFJCMLHS", # MyTeam wallet
+  "GDHSYB7RLQE6SEBDECUXNZHIYZSPTHTRIDIANTV32BHMABEMZIJD76TS", # Volunteers wallet
+  "GAXX43G7FTIBLKTQ26BPA6OMN4DGQVG4XGHZBF3EGL2WK2JOOYQKM54J", # Organization wallet
+  "GDPNCB4M5UXVWG33PZ4YYJGLF66RKB4OQNKQWWU7QBIP6W5VKEDDFRQ2"  # Reserve wallet
+]
+
+[[CURRENCIES]]
+code="PIC"
+issuer="GCKUEZHJJCSODYFTF32BFMSD7C4IYY73FECHCL5B72SFHPMSDVG6S7D2"
+display_decimals=7
+name="PICoin"
+desc="Pension Investing Coin"
+image="https://picoinproject.org/assets/picoin_toml_512.png"
+fixed_number=750000000000
+max_number=750000000000
+status="live"
