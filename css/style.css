@@ -337,6 +337,33 @@ body.dark footer a {
    MOBILE
 ========================= */
 
+ /* =========================
+    VERIFICATION LINKS
+ ========================= */
+
+.verification-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 20px;
+  margin-top: 25px;
+}
+
+.verification-links a {
+  display: inline-block;
+  color: #6a0dad;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.verification-links a:hover {
+  text-decoration: underline;
+}
+
+body.dark .verification-links a {
+  color: #b983ff;
+}
+
 /* =========================
    HERO
 ========================= */
